@@ -20,10 +20,10 @@ public class DailyReportData {
 	public DailyReportData() {
 		this.smtpHost="smtp.gmail.com";
 		this.smtpPort="587";
-		this.emailTo="sanmuk21@gmail.com";
+		this.emailTo="anymail@gmail.com";
 		this.emailCC="";
-		this.emailFrom="sanmuk.testing.work";
-		this.emailFromPasswd="somenath";
+		this.emailFrom="someid";
+		this.emailFromPasswd="password";
 		this.sslEnable="true";
 		this.emailSignature="Thanks, Daily Report Administrator";
 		this.emailSubject=" : Daily Report : ";
