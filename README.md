@@ -76,30 +76,30 @@ GENERAL@@@SMTP_PORT@@@587
 Line 
 GENERAL@@@EMAIL_TO@@@[EMAIL ID]
 Meaning
-Email Id to with report to be send. Default: sanmuk21@gmail.com
+Email Id to with report to be send. Default: yourid@gmail.com
 Example
-GENERAL@@@EMAIL_TO@@@sanmuk21@gmail.com
+GENERAL@@@EMAIL_TO@@@yourid@gmail.com
 
 Line 
 GENERAL@@@EMAIL_CC@@@[EMAIL ID]
 Meaning
 Email Id to be kept in CC in report mail. Default: 
 Example
-GENERAL@@@EMAIL_TO@@@sanmuk21@gmail.com
+GENERAL@@@EMAIL_TO@@@yourid@gmail.com
 
 Line 
 GENERAL@@@EMAIL_FROM@@@[EMAIL ID]
 Meaning
-Email Id from which report mail will be send. Default: sanmuk.testing.work@gmail.com
+Email Id from which report mail will be send. Default: something@gmail.com
 Example
-GENERAL@@@EMAIL_FROM@@@sanmuk.testing.work
+GENERAL@@@EMAIL_FROM@@@yourid.testing.work
 
 Line 
 GENERAL@@@EFROM_PASSWORD@@@[ENCRYPTED PASSWORD]
 Meaning
 Password for the email Id from which report mail will be send. Default: ******
 Example
-GENERAL@@@ EFROM_PASSWORD @@@ZM4FI7WARG8Or7Tz97PYNw==
+GENERAL@@@ EFROM_PASSWORD @@@ZMz97PYNw==
 
 NOTE: In above field the password provided should be an encrypted text your original password. To get an encrypted text for your password use the same tool jar as below.
 java -cp dailyreport.jar com.mukherjee.sankar.dailyreportgenerator.security.SecurityWorker
@@ -136,7 +136,7 @@ GENERAL@@@EMAIL_SIGNATURE@@@Thanks, <BR>Daily Report Administrator
 
 NOTE: For both text fields for EMAIL_SIGNATURE and EMAIL_HEADER you can give multiline data using HTML next line string notation <BR>.
 Example Execution
-Now that we are all set let us run the tool for our imaginary use case discussed in previous section. In the configuration file we will put 3 monitor lines to monitor 3 Services that was required to be validated and we will mail it to concerned peoples group email id in our case is sanmuk21@gmail.com.
+Now that we are all set let us run the tool for our imaginary use case discussed in previous section. In the configuration file we will put 3 monitor lines to monitor 3 Services that was required to be validated and we will mail it to concerned peoples group email id in our case is yourid21@gmail.com.
 Thus the configuration file looks like below.
  
 Now we are all set to execute so let’s execute.
